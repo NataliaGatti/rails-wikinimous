@@ -1,0 +1,15 @@
+<div class="container p-auto">
+    <h1 class="mt-5"><%= @article.title %> 
+    <small>
+      <%= link_to edit_article_path(@article) do %><i class="fa fa-pencil icon"></i><% end %>
+
+      <%= link_to article_path(@article), method: :delete, data: { confirm: 'Are you sure?' } do %>
+        <i class="fa fa-trash-o icon"></i>
+      <% end %>
+    </small>
+    </h1>
+    <hr>
+    <p><%= @article.content %></p>
+    <%= link_to "Back", articles_path  %>
+</div>
+

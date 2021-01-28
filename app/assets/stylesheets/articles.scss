@@ -1,0 +1,26 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+ul {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+ul a {
+    text-decoration: none;
+    font-size: 35px;
+    font-family: Roboto;
+    color: #337ab7;
+}
+
+ul p {
+    font-size: 25px;
+    font-family: Roboto;
+}
+
+.icon {
+    font-size: 65%;
+    color: #19588f;
+}
